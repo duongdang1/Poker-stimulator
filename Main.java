@@ -33,18 +33,20 @@ public class Main {
         int compare = firstHand.compareStudTo(secondHand);
 
         System.out.println("the community cards are" + community_card);
-        System.out.println(first_hand);
-        System.out.println(second_hand);
+        System.out.println("first hand" + " " + first_hand);
+        System.out.println("second hand"+ " " +second_hand);
+        System.out.println("first hand or second hand win?");
         Scanner obj = new Scanner(System.in);
         int a = obj.nextInt();
-       
-        System.out.println("first hand or second hand win?");
         if (a == compare){
             System.out.println("correct");
         }else{
             System.out.println("incorrect");
         }
 
+        
+       
+        
         
         
         
